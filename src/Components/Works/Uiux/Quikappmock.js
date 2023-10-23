@@ -1,0 +1,27 @@
+import React from 'react';
+import images from '../../../Constants/Images';
+
+const Quikappmockup = () => {
+
+
+
+    return(
+       <div className='p-4 flex flex-wrap justify-between'>
+         {images.uiuxquikapp.map ( (image) => {
+            return(
+       
+<div className='flex  w-[40%] m-6  ' >
+<div key={image.title} className = 'flex flex-col justify-center '>
+<img className='my-6' src = {image.mockup} loading='lazy'/>
+<div className='text-bold text-2xl bg-black text-white p-4 rounded-lg'><h3 >{image.title}</h3></div>
+</div>
+
+</div>)
+        })}
+       </div>
+    
+    )
+  
+}
+
+export default Quikappmockup

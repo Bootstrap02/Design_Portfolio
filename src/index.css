@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+.modal-enter {
+    @apply opacity-0 transform -translate-y-1/2 transition-opacity transition-transform ease-in-out duration-300;
+    /* opacity: 0;
+    transform: translateY(-50%);
+    transition: opacity 0.3s ease, transform 0.3s ease; */
+  }
+  
+  .modal-enter-active {
+    @apply opacity-100 transform translate-y-0;
+    /* opacity: 1;
+    transform: translateY(0); */
+  }
+  
+  .modal-exit {
+    @apply opacity-100 transform translate-y-0;
+    /* opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease; */
+  }
+  
+  .modal-exit-active {
+    @apply opacity-0 transform -translate-y-1/2;
+    /* opacity: 0;
+    transform: translateY(-50%); */
+  }
+  
+}

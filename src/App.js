@@ -8,6 +8,11 @@ import Backend from './Components/Backend';
 import UIUXDesign from './Components/UIUX';
 import Graphicart from './Components/Graphicart.js';
 import Contact from './Components/Contact';
+import Choplifeapp from './Components/Works/Uiux/Choplifeapp';
+import Choplifeweb from './Components/Works/Uiux/Choplifeweb';
+import Quickdoctorapp from './Components/Works/Uiux/Quikdoctorapp';
+import Quickdoctorweb from './Components/Works/Uiux/Quikdoctorweb';
+
 
 
 function App() {
@@ -21,6 +26,10 @@ function App() {
         <Route path='/UIUX' element={<UIUXDesign/>}/>
         <Route path='/Graphicart' element={<Graphicart/>}/>
         <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Choplifeapp' element={<Choplifeapp/>}/>
+        <Route path='/Choplifeweb' element={<Choplifeweb/>}/>
+        <Route path='/Quickdoctorapp' element={<Quickdoctorapp/>}/>
+        <Route path='/Quickdoctorweb' element={<Quickdoctorweb/>}/>
         </Routes>
     </div>
   );

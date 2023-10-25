@@ -1,11 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Images from '../Constants/Images';
 import Buttons from '../Constants/Buttons';
+import Postmodals from './Postmodals';
 
 
 const Landingpage = () => {
+
+  const [modals, setModals] = useState(false);
+
+  const modalStyle = {
+    zIndex: "2000",
+    position: "fixed",
+    top: "20%",
+    left: "10%"
+    
+  };
+
+
+
+  const [successMessage, setSuccessMessage] = useState(false);
+
+
+const openSuccessMessage = () => {
+   setSuccessMessage("Congratulations! Your message was sent successful");
+};
+const closeSuccessMessage = () => {
+   setSuccessMessage(false)
+};
+
+
+  const openModals = () => {
+    setModals(true);
+  };
+  const closeModals = () => {
+    setModals(false);
+  };
+
+
+
   return (
-    <div className='flex justify-between items-start  px-4 my-2 mx-4'>
+    <div className='flex justify-between items-start  p-6 max-lg:p-2 '>
         <div className='mx-6'>
             <img src={Images.foodweb.potrait} alt='potrait' width={500} height={450} loading='lazy'/>
         </div>
@@ -43,13 +77,31 @@ Thank you for visiting my portfolio. I look forward to the opportunity to collab
 <br/><br/>
 Warm regards,
 <br/><br/>
-Louis Joseph
-[Your Contact Information]
-[Your Portfolio Link]
-[Your LinkedIn Profile]
-[Your Email Address]
+<div className='flex flex-col gap-4'>
+<h2>Louis Joseph</h2>
+<a className='text-[#40EF14]' href="louisjoseph.vercel.app">louisjoseph.vercel.app</a>
+<a className='text-[#40EF14]' href="https://www.linkedin.com/in/louis-joseph-634558153/">https://www.linkedin.com/in/louis-joseph-634558153/</a>
+<h3>louisjoseph131@gmail.com</h3>
 </div>
-<div className='ml-auto'><Buttons/></div>
+</div>
+<div>
+<div>
+<div className='ml-auto m-4'  onClick={openModals}><Buttons/></div>
+              {modals && <Postmodals closeModals={closeModals} openSuccessMessage = {openSuccessMessage} />}
+              <div  style={modalStyle} className="w-[1000px] max-lg:w-[300px]" >
+          {successMessage &&  <div className='container bg-black rounded-lg w-full flex flex-col justify-center items-center m-4 p-4 max-lg:p-2 max-lg:m-2 '>
+          
+    <div className="flex flex-col justify-center w-full gap-4 items-center rounded-lg border-2 border-[#B59410] p-8 max-lg:p-4">
+    <button className="bg-white ml-auto" onClick={ closeSuccessMessage}>
+      <img src= {Images.foodweb.cancel}/>
+      </button>
+      <p className='text-white font-black text-center text-4xl max-lg:text-2xl'>{successMessage}</p>
+      <img src= {Images.foodweb.sent} width={100}/>
+    </div>
+  </div>}
+        </div>
+            </div>
+</div>
         </div>
        
     </div>

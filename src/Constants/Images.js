@@ -14,7 +14,11 @@ const foodweb ={
     Colortexts : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697441911/Design_Portfolio/Colortexts_qbrbtv.png',             
     design : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697441912/Design_Portfolio/design_z4hlfj.png',            
     research : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697442028/Design_Portfolio/research_yfqtgs.png',             
-    test : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697442039/Design_Portfolio/test_yff5qm.png'   
+    test : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697442039/Design_Portfolio/test_yff5qm.png',   
+    cancel : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455019/Isioma_project/work/cancel_o0xflr.png',
+    sent : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697624602/Isioma_project/work/Group_211_wolujt.png',
+    menu : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697637015/Isioma_project/work/menu_e3d5xf.png',
+    cancels : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455020/Isioma_project/work/cancels_ydqs2v.png',
 
 }
 
@@ -108,6 +112,9 @@ const foodapp = {
     heart: 'https://res.cloudinary.com/dneejvhch/image/upload/v1697451423/Design_Portfolio/Heart_by0jkf.png',
     mockBG : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697451608/Design_Portfolio/mahoganybackground_t0nmly.jpg',             
 }
+
+
+
 
 const uiuxapp = [
     {
@@ -223,6 +230,7 @@ const quikapp= {
 }
 
 
+
 const uiuxquikweb = [
     {
         mockup : 'https://res.cloudinary.com/dneejvhch/image/upload/v1698058970/Design_Portfolio/quiksignup_gbw7zq.png',
@@ -285,6 +293,7 @@ const uiuxquikweb = [
 
 ]
 
+
 const uiuxquikapp = [
     {
         mockup : 'https://res.cloudinary.com/dneejvhch/image/upload/v1698058939/Design_Portfolio/app1splashscreen_kz1sij.png',
@@ -333,7 +342,7 @@ const uiuxquikapp = [
     },
     {
         mockup :  'https://res.cloudinary.com/dneejvhch/image/upload/v1698058946/Design_Portfolio/appseizure_r0mn1l.png',
-        title : "Eergencies(Siezures)"
+        title : "Emergencies(Siezures)"
     },
     {
         mockup :  'https://res.cloudinary.com/dneejvhch/image/upload/v1698058942/Design_Portfolio/appmyaccountform_b1ldpd.png',
@@ -366,5 +375,177 @@ const uiuxquikapp = [
     }
 ]
 
+const Frontend = [
+   {
+        title: "Alfredo_Bar",
+      link: "https://alfredo-bar.netlify.app/",
+      description: "A luxurious lounge and bar located in Festac,Lagos, Nigeria ",
+      film: "https://res.cloudinary.com/dneejvhch/image/upload/v1698082926/Design_Portfolio/alfred1_b7tqqq.png",
+      photos: ["https://res.cloudinary.com/dneejvhch/image/upload/v1698082926/Design_Portfolio/alfred1_b7tqqq.png", 
+        "https://res.cloudinary.com/dneejvhch/image/upload/v1698082956/Design_Portfolio/alfred2_a5yvbv.png", 
+        "https://res.cloudinary.com/dneejvhch/image/upload/v1698082962/Design_Portfolio/alfred3_qyydrb.png",
+        "https://res.cloudinary.com/dneejvhch/image/upload/v1698082959/Design_Portfolio/WhatsApp_Image_2023-10-23_at_6.09.56_PM_wp8shh.jpg"
+    ]
+    },
+    {
+        title: "CChomes Limited",
+      link: "http://cchomes.vercel.app/",
+      description:" A real-estate firm located in Abuja with Property listings all over Nigeria. ",
+      film: "https://res.cloudinary.com/dneejvhch/image/upload/v1698083059/Design_Portfolio/cc1_y5mdqy.png",
+      photos: ["https://res.cloudinary.com/dneejvhch/image/upload/v1698083059/Design_Portfolio/cc1_y5mdqy.png", 
+      "https://res.cloudinary.com/dneejvhch/image/upload/v1698082936/Design_Portfolio/cc2_lmijzw.png", 
+      "https://res.cloudinary.com/dneejvhch/image/upload/v1698082986/Design_Portfolio/cc3_pywonu.png",
+      "https://res.cloudinary.com/dneejvhch/image/upload/v1698082956/Design_Portfolio/WhatsApp_Image_2023-10-23_at_6.09.55_PM_kt7xfk.jpg" 
+    ]
+    }
+   
+  ];
 
-export default {foodweb, uiuxweb, foodapp, uiuxapp, quikweb, quikapp, uiuxquikweb, uiuxquikapp};
+
+  
+  
+  
+  
+
+const Uiuxdesign = [
+   {
+        title: "Choplife Website",
+      description: "A Food Ordering Company website. located in ,Lagos, Nigeria ",
+      link: '/Choplifeweb',
+      film: 'https://res.cloudinary.com/dneejvhch/image/upload/v1697441918/Design_Portfolio/mock3_wybudf.png',
+      photos: [
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1697441918/Design_Portfolio/mock3_wybudf.png', 
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1697441964/Design_Portfolio/mock2_p2ovbf.png', 
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1697441944/Design_Portfolio/mock4_erybew.png',
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1697441970/Design_Portfolio/mock8_s8zs2e.png',
+    ]
+    },
+
+    
+
+
+
+    
+   {
+        title: "Choplife Mobile app",
+      description: "A Food Ordering Company mobile app. located in ,Lagos, Nigeria ",
+      link: '/Choplifeapp',
+      film: 'https://res.cloudinary.com/dneejvhch/image/upload/v1697451624/Design_Portfolio/Rectangle_7_gnnang.png',
+      photos: [
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1697451624/Design_Portfolio/Rectangle_7_gnnang.png', 
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1697451644/Design_Portfolio/Rectangle_9_ixpyh4.png',
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1697451655/Design_Portfolio/Rectangle_10_wvtr9k.png',
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1697451425/Design_Portfolio/homepageapp_l4qvmy.png', 
+    ]
+    },
+
+    
+
+    
+    
+    
+    
+
+
+   {
+        title: "Quikdoctor Medical Consultancy",
+      description: "An online AI Medical consultancy firm website",
+      link: '/Quickdoctorweb',
+      film: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698058955/Design_Portfolio/quikhome1_g3dtvg.png',
+      photos: [
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058955/Design_Portfolio/quikhome1_g3dtvg.png', 
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058965/Design_Portfolio/quiklogin_pvicu0.png',
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058951/Design_Portfolio/quickchatweb_kdsxyn.png',
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058966/Design_Portfolio/speakwithadoctorweb_lny9pg.png',
+    ]
+    },
+
+    
+
+
+
+   {
+    title: "Quikdoctor Medical Consultancy",
+    description: "An online AI Medical consultancy firm mobile app",
+    link: '/Quickdoctorapp',
+      film: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698058939/Design_Portfolio/app1splashscreen_kz1sij.png',
+      photos: [
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058939/Design_Portfolio/app1splashscreen_kz1sij.png', 
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058946/Design_Portfolio/appseizure_r0mn1l.png',
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058939/Design_Portfolio/apphome_z9ngor.png',
+        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058940/Design_Portfolio/appmyhistory_imhkqa.png',
+    ]
+    },
+
+    
+   
+  ];
+
+  const graphic = [
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219231/Design_Portfolio/0d6fa7181697199.65201ef42d2e1_j8wxjg.png',
+        title: 'CAC 21 days Revival Prayer',
+        description: 'Handbill or flyer for Church of Christ. using Figma, coral-draw ',
+    },
+
+    
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219174/Design_Portfolio/a7969f209cf5c789641445f845ba9598_blezd1.jpg',
+        title: 'Business promotion Flyer',
+        description: 'Business Prootion flyer using Figma, dribbble.com and other internet research packages',
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219186/Design_Portfolio/Afrobeats-Poster_nzidyr.jpg',
+        title: 'Music Festival Flyers',
+        description: 'Music/Party flyers using figma and photo-editing tools',
+    },
+
+    {
+        image: "https://res.cloudinary.com/dneejvhch/image/upload/v1698219203/Design_Portfolio/bc7be331e7f474c85d462f7d59778d65_ajc8gv.jpg",
+        title: "New Year's Eve Party",
+        description: "New Year's Eve Party Flyer using corel draw and photoshop",
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219230/Design_Portfolio/conference-poster-design-template-49ff0374be4c9a3ed9c16908e2ed730f_screen_flh7ay.jpg',
+        title: 'Business promotion Flyer',
+        description: 'Business Prootion flyer using Figma, Photoshop, dribbble.com and other internet research packages',
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219237/Design_Portfolio/original-04a2297e41831296b8ddc9db90c61ca4_wqeexp.png',
+        title: 'jobsgo.com landing page',
+        description: 'jobsgo homepage using figma and google resources',
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219253/Design_Portfolio/original-4c8a303922b98196c01d8cbcd827135a_jovyeo.png',
+        title: 'bcm recycled Materials landing page',
+        description: 'Recycled Materials homepage using figma and google resources',
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219236/Design_Portfolio/original-7549ffb77f985be262ee5ab3f0ca4db8_qeu1vr.jpg',
+        title: 'Sample homepage',
+        description: 'sample homepage using corel-draw',
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219177/Design_Portfolio/original-f6baf0da9cf88528c9f13f66cd0c8d40_stl32n.png',
+        title: 'CredoBank Ltd',
+        description: 'CredoBank landing page using figma',
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219221/Design_Portfolio/1131w-PP-gwsl_1Hs_kdmcrs.webp',
+        title: 'Borcelle 2024 Business Conference',
+        description: 'Borcelle 2024 Business Conference handbill created with figma, photoshop and other photo editing tools',
+    },
+
+
+  ]
+
+
+
+export default {foodweb, uiuxweb, foodapp, uiuxapp, quikweb, quikapp, graphic, uiuxquikweb, uiuxquikapp, Frontend, Uiuxdesign};

@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Frontsend from './Works/Frontend'
 
 const Frontend = () => {
   return (
-    <div>Frontend</div>
+    <div>
+      <Frontsend/>
+    </div>
   )
 }
 

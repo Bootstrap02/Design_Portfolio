@@ -29,10 +29,10 @@ const Frontend = () => {
           <div className="font-montecarlo flex flex-col  items-center justify-center gap-4 text-white w-full p-4 bg-black ">
             <h1><strong>{photo.title}</strong></h1>
             <div className= " flex  gap-6  items-center justify-center">
-            <h2>
+            <h4>
               <strong>{photo.description}</strong>
-            </h2>
-          <a href ={photo.link} target="_blank">  <button className='px-8 py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>Visit</strong></button></a>
+            </h4>
+          <a href ={photo.link} target="_blank">  <button className='px-8 py-2  max-lg:px-4  max-lg:py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>Visit</strong></button></a>
             </div>
             
           </div>

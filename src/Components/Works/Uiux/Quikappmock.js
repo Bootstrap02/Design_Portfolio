@@ -10,7 +10,7 @@ const Quikappmockup = () => {
          {images.uiuxquikapp.map ( (image) => {
             return(
        
-<div className='flex  w-[40%] m-6  '  key={image.title}>
+<div className='flex  w-[40%] m-6 max-lg:w-[100%] '  key={image.title}>
 <div className = 'flex flex-col justify-center '>
 <img className='my-6' src = {image.mockup} loading='lazy'/>
 <div className='text-bold text-2xl bg-black text-white p-4 rounded-lg'><h3 >{image.title}</h3></div>

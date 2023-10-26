@@ -3,7 +3,7 @@ import Frontsend from './Works/Frontend'
 
 const Frontend = () => {
   return (
-    <div>
+    <div className='my-4'>
       <Frontsend/>
     </div>
   )

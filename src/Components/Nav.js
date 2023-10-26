@@ -9,7 +9,6 @@ const [click, setClick] = useState(false)
 
 const handleClick = (id) =>{
   setClick(id)
-  setModals(false);
 }
 
 const [modals, setModals] = useState(false);
@@ -22,12 +21,12 @@ const [modals, setModals] = useState(false);
 
 
   return (
-   <div className='m-4 flex justify-between items-center p-2'>
-    <div>
+   <div className='m-4 flex justify-between items-center p-2 w-[90%]'>
+    <div className=''>
       <img src= {Images.foodweb.logo} alt='logo' width={70} height={70} loading='lazy'/>
       <h3>Portfolio</h3>
         </div>
-     <nav className='m-4 flex justify-between items-center p-2 max-lg:hidden text-white font-bold '>
+     <nav className=' flex justify-between items-center p-2 max-lg:hidden text-white font-bold '>
         <div className='flex p-2 gap-8 mx-8' style={{borderBottom : '1px solid #D9D9D9 '}}>
         <Link id='home' to = "/" style={{borderBottom: click === 'home' ? '2px solid #40EF14' : 'none'}} 
           onClick={() =>{handleClick('home')}}>Home</Link>
@@ -46,7 +45,7 @@ const [modals, setModals] = useState(false);
         </div>
     </nav>
     
-<button className="hidden  max-lg:block  mr-6" onClick={openModals}>
+<button className="hidden  max-lg:block mb-8 " onClick={openModals}>
   <img src={Images.foodweb.menu} width={50}  />
     {modals && <Navmodal closeModals={closeModals} />}
 </button>

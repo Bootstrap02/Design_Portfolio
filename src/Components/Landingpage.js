@@ -39,14 +39,14 @@ const closeSuccessMessage = () => {
 
 
   return (
-    <div className='flex justify-between items-start  p-6 max-lg:p-2 '>
-        <div className='mx-6'>
-            <img src={Images.foodweb.potrait} alt='potrait' width={500} height={450} loading='lazy'/>
+    <div className='flex justify-between max-lg:justify-center  items-start  p-6 max-lg:p-2  max-lg:flex-col w-[100%]]'>
+        <div className='mx-6 max-lg:flex justify-center w-[50%] max-lg:w-[90%]'>
+            <img className='w-[80%]' src={Images.foodweb.potrait} alt='potrait' />
         </div>
 
-        <div className='text-white flex flex-col w-[50%]'>
-      <div className='my-2 p-4 text-2xl'>
-      Greetings! <span className='text-[#005163] font-bold'>I'm <span className=' text-4xl'>Louis Joseph</span></span>, a passionate and versatile Software Engineer specializing in Frontend Development with React.js, Backend Engineering with Node.js, and UI/UX Design.
+        <div className='text-white flex flex-col w-[50%] justify-center max-lg:w-[100%]'>
+      <div className='my-2 p-4 text-2xl max-lg:text-xl'>
+      Greetings! <span className='text-[#005163] font-bold'>I'm <span className=' text-4xl max-lg:text-2xl'>Louis Joseph</span></span>, a passionate and versatile Software Engineer specializing in Frontend Development with React.js, Backend Engineering with Node.js, and UI/UX Design.
        With a year of hands-on experience, I have honed my skills in creating seamless and visually appealing digital experiences.
       </div>
 
@@ -89,7 +89,7 @@ Warm regards,
 <div className='ml-auto m-4'  onClick={openModals}><Buttons/></div>
               {modals && <Postmodals closeModals={closeModals} openSuccessMessage = {openSuccessMessage} />}
               <div  style={modalStyle} className="w-[1000px] max-lg:w-[300px]" >
-          {successMessage &&  <div className='container bg-black rounded-lg w-full flex flex-col justify-center items-center m-4 p-4 max-lg:p-2 max-lg:m-2 '>
+          {successMessage &&  <div className=' bg-black rounded-lg w-full flex flex-col justify-center items-center m-4 p-4 max-lg:p-2 max-lg:m-2 '>
           
     <div className="flex flex-col justify-center w-full gap-4 items-center rounded-lg border-2 border-[#B59410] p-8 max-lg:p-4">
     <button className="bg-white ml-auto" onClick={ closeSuccessMessage}>

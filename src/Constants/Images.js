@@ -379,7 +379,7 @@ const Frontend = [
    {
         title: "Alfredo_Bar",
       link: "https://alfredo-bar.netlify.app/",
-      description: "A luxurious lounge and bar located in Festac,Lagos, Nigeria ",
+      description: "A luxurious lounge and bar located in Festac,Lagos, Nigeria built with react, vanilla javascript and plain css. ",
       film: "https://res.cloudinary.com/dneejvhch/image/upload/v1698082926/Design_Portfolio/alfred1_b7tqqq.png",
       photos: ["https://res.cloudinary.com/dneejvhch/image/upload/v1698082926/Design_Portfolio/alfred1_b7tqqq.png", 
         "https://res.cloudinary.com/dneejvhch/image/upload/v1698082956/Design_Portfolio/alfred2_a5yvbv.png", 
@@ -390,7 +390,7 @@ const Frontend = [
     {
         title: "CChomes Limited",
       link: "http://cchomes.vercel.app/",
-      description:" A real-estate firm located in Abuja with Property listings all over Nigeria. ",
+      description:" A real-estate firm located in Abuja with Property listings all over Nigeria.built with react, vanilla javascript, tailwind and bootstrap. ",
       film: "https://res.cloudinary.com/dneejvhch/image/upload/v1698083059/Design_Portfolio/cc1_y5mdqy.png",
       photos: ["https://res.cloudinary.com/dneejvhch/image/upload/v1698083059/Design_Portfolio/cc1_y5mdqy.png", 
       "https://res.cloudinary.com/dneejvhch/image/upload/v1698082936/Design_Portfolio/cc2_lmijzw.png", 

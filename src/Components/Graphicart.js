@@ -2,7 +2,7 @@ import React from 'react';
 import Design from './Works/Design';
 
 
-const Contact = () => {
+const Graphicart = () => {
   return (
     <div className='bg-black'>
       <div><Design/></div>
@@ -11,4 +11,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Graphicart

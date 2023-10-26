@@ -33,7 +33,7 @@ const Uiux = () => {
             <h2>
               <strong>{photo.description}</strong>
             </h2>
-            <Link to={photo.link}> <button className='px-8 py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>See More...</strong></button></Link>
+            <Link to={photo.link}> <button className='px-8 py-2  max-lg:px-4  max-lg:py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>See More...</strong></button></Link>
             </div>
             
           </div>

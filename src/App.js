@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Nav from './Components/Nav';
 import Home from './Components/Landingpage';
@@ -17,8 +16,8 @@ import Quickdoctorweb from './Components/Works/Uiux/Quikdoctorweb';
 
 function App() {
   return (
-    <div className="App bg-black">
-      <Nav/>
+    <div className="text-center bg-black  ">
+      <div className='w-[100%] flex justify-center'><Nav/></div>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Frontend' element={<Frontend/>}/>

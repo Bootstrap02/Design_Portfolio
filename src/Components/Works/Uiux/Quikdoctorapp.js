@@ -98,7 +98,7 @@ const Quikdoctorapp = () => {
        </div>
        <div className='flex flex-col gap-6'>
        <div className='text-4xl text-center font-bold p-6'><span className='text-[#54096c]'>Wireframe </span>Design</div>
-        <div className='m-8 p-8 bg-[#f7f6f6] shadow-lg rounded-lg'>
+        <div className='m-8 p-8 max-lg:m-2 max-lg:p-2 bg-[#f7f6f6] shadow-lg rounded-lg'>
           <video src= {Images.quikweb.intros} width="100%" height="auto" controls autoPlay/>
         </div>
         <div style={background}>

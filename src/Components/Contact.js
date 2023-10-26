@@ -170,8 +170,8 @@ const Contact = () => {
               <strong>Contact Info</strong>
             </h1>
             <p><strong>email :</strong> louisjoseph131@gmail.com</p>
-            <a className='text-yellow-600' href= "https://www.linkedin.com/in/louis-joseph-634558153/"><strong>linkedIn</strong></a>
-            <a className='text-yellow-600' href= "https://web.facebook.com/louis.joseph.3597/"><strong>facebook</strong></a>
+            <a className='text-yellow-600' href= "https://www.linkedin.com/in/louis-joseph-634558153/" target="_blank"><strong>linkedIn</strong></a>
+            <a className='text-yellow-600' href= "https://web.facebook.com/louis.joseph.3597/" target="_blank"><strong>facebook</strong></a>
             <p><strong>whatsapp :</strong> +234-816-491-0957</p>
             <p><strong>Tel :</strong> +234-816-491-0957, +234-704-238-0116, +234-906-941-2463</p>
           </div>

@@ -79,8 +79,8 @@ Warm regards,
 <br/><br/>
 <div className='flex flex-col gap-4'>
 <h2>Louis Joseph</h2>
-<a className='text-[#40EF14]' href="louisjoseph.vercel.app">louisjoseph.vercel.app</a>
-<a className='text-[#40EF14]' href="https://www.linkedin.com/in/louis-joseph-634558153/">https://www.linkedin.com/in/louis-joseph-634558153/</a>
+<a className='text-[#40EF14]' href="louisjoseph.vercel.app" target="_blank">louisjoseph.vercel.app</a>
+<a className='text-[#40EF14]' href="https://www.linkedin.com/in/louis-joseph-634558153/" target="_blank">https://www.linkedin.com/in/louis-joseph-634558153/</a>
 <h3>louisjoseph131@gmail.com</h3>
 </div>
 </div>

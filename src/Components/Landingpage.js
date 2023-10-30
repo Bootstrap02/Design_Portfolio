@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Images from '../Constants/Images';
 import Buttons from '../Constants/Buttons';
 import Postmodals from './Postmodals';
@@ -16,6 +17,11 @@ const Landingpage = () => {
     
   };
 
+  const [hover, setHover] = useState(false)
+
+const handleClick = (id) =>{
+  setHover(id)
+}
 
 
   const [successMessage, setSuccessMessage] = useState(false);
@@ -40,9 +46,29 @@ const closeSuccessMessage = () => {
 
   return (
     <div className='flex justify-between max-lg:justify-center  items-start  p-6 max-lg:p-2  max-lg:flex-col w-[100%]]'>
-        <div className='mx-6 max-lg:flex justify-center w-[50%] max-lg:w-[90%]'>
+        <div className='mx-6   gap-4 flex flex-col items-center justify-center w-[50%] max-lg:w-[90%]'>
             <img className='w-[80%]' src={Images.foodweb.potrait} alt='potrait' />
+            <div>
+<div>
+<div className=' m-4'  onClick={openModals}><Buttons/></div>
+              {modals && <Postmodals closeModals={closeModals} openSuccessMessage = {openSuccessMessage} />}
+              <div  style={modalStyle} className="w-[1000px] max-lg:w-[300px]" >
+          {successMessage &&  <div className=' bg-black rounded-lg w-full flex flex-col justify-center items-center m-4 p-4 max-lg:p-2 max-lg:m-2 '>
+          
+    <div className="flex flex-col justify-center w-full gap-4 items-center rounded-lg border-2 border-[#B59410] p-8 max-lg:p-4">
+    <button className="bg-white ml-auto" onClick={ closeSuccessMessage}>
+      <img src= {Images.foodweb.cancel}/>
+      </button>
+      <p className='text-white font-black text-center text-4xl max-lg:text-2xl'>{successMessage}</p>
+      <img src= {Images.foodweb.sent} width={100}/>
+    </div>
+  </div>}
         </div>
+            </div>
+</div>
+        </div>
+
+
 
         <div className='text-white flex flex-col w-[50%] justify-center max-lg:w-[100%]'>
       <div className='my-2 p-4 text-2xl max-lg:text-xl'>
@@ -52,19 +78,23 @@ const closeSuccessMessage = () => {
 
 <div className='justify-start'>
 <strong className='text-[#40EF14]'>Frontend Expertise: </strong>
-In the realm of frontend development, I excel in crafting responsive, interactive, and user-friendly interfaces using React.js. I have a keen eye for detail, ensuring that every pixel is in its perfect place, and every user interaction is smooth and intuitive.
+In the realm of frontend development, I excel in crafting responsive, interactive, and user-friendly interfaces using React.js. I have a keen eye for detail, ensuring that every pixel is in its perfect place, and every user interaction is smooth and intuitive.<Link id='frontend' to = "/Frontend" style= {{borderBottom: hover === 'frontend'? '2px solid #40EF14' : 'none'}}
+    onMouseOver={()=>{handleClick('frontend')}}>See more...</Link>
 <br/><br/>
 <strong  className='text-[#40EF14]'>Backend Mastery: </strong>
-On the backend, I thrive in the world of Node.js, architecting robust and scalable server-side applications. My proficiency lies in optimizing performance and ensuring the backend infrastructure seamlessly supports the frontend, providing users with a seamless experience.
+On the backend, I thrive in the world of Node.js, architecting robust and scalable server-side applications. My proficiency lies in optimizing performance and ensuring the backend infrastructure seamlessly supports the frontend, providing users with a seamless experience.<Link id='backend' to = "/Backend" style= {{borderBottom: hover === 'backend'? '2px solid #40EF14' : 'none'}}
+    onMouseOver={()=>{handleClick('backend')}}>See more...</Link>
 
 
 <br/><br/>
 <strong  className='text-[#40EF14]'>UI/UX Proficiency: </strong>
-User-centric design is at the heart of my work. I am proficient in utilizing tools like Figma, Jira, and Maze to transform complex concepts into intuitive, visually appealing interfaces. My expertise in UI/UX design ensures that every project I undertake is not just functional but also aesthetically pleasing, enhancing user engagement and satisfaction.
+User-centric design is at the heart of my work. I am proficient in utilizing tools like Figma, Jira, and Maze to transform complex concepts into intuitive, visually appealing interfaces. My expertise in UI/UX design ensures that every project I undertake is not just functional but also aesthetically pleasing, enhancing user engagement and satisfaction.<Link id='uiux' to = "/UIUX" style= {{borderBottom: hover === 'uiux'? '2px solid #40EF14' : 'none'}}
+    onMouseOver={()=>{handleClick('uiux')}}>See more...</Link>
 
 <br/><br/>
 <strong  className='text-[#40EF14]'>Graphic Arts Designer: </strong>
-Beyond code, I am a creative soul with a flair for graphic arts. I bring ideas to life through captivating visuals, merging functionality with creativity to deliver compelling designs that leave a lasting impression.
+Beyond code, I am a creative soul with a flair for graphic arts. I bring ideas to life through captivating visuals, merging functionality with creativity to deliver compelling designs that leave a lasting impression.<Link id='graphicart' to = "/Graphicart" style= {{borderBottom: hover === 'graphicart'? '2px solid #40EF14' : 'none'}}
+    onMouseOver={()=>{handleClick('graphicart')}}>See more...</Link>
 
 
 <br/><br/>
@@ -84,24 +114,7 @@ Warm regards,
 <h3>louisjoseph131@gmail.com</h3>
 </div>
 </div>
-<div>
-<div>
-<div className='ml-auto m-4'  onClick={openModals}><Buttons/></div>
-              {modals && <Postmodals closeModals={closeModals} openSuccessMessage = {openSuccessMessage} />}
-              <div  style={modalStyle} className="w-[1000px] max-lg:w-[300px]" >
-          {successMessage &&  <div className=' bg-black rounded-lg w-full flex flex-col justify-center items-center m-4 p-4 max-lg:p-2 max-lg:m-2 '>
-          
-    <div className="flex flex-col justify-center w-full gap-4 items-center rounded-lg border-2 border-[#B59410] p-8 max-lg:p-4">
-    <button className="bg-white ml-auto" onClick={ closeSuccessMessage}>
-      <img src= {Images.foodweb.cancel}/>
-      </button>
-      <p className='text-white font-black text-center text-4xl max-lg:text-2xl'>{successMessage}</p>
-      <img src= {Images.foodweb.sent} width={100}/>
-    </div>
-  </div>}
-        </div>
-            </div>
-</div>
+
         </div>
        
     </div>

@@ -79,22 +79,22 @@ const closeSuccessMessage = () => {
 <div className='justify-start'>
 <strong className='text-[#40EF14]'>Frontend Expertise: </strong>
 In the realm of frontend development, I excel in crafting responsive, interactive, and user-friendly interfaces using React.js. I have a keen eye for detail, ensuring that every pixel is in its perfect place, and every user interaction is smooth and intuitive.<Link id='frontend' to = "/Frontend" style= {{borderBottom: hover === 'frontend'? '2px solid #40EF14' : 'none'}}
-    onMouseOver={()=>{handleClick('frontend')}}>See more...</Link>
+    onMouseOver={()=>{handleClick('frontend')}}> See more...</Link>
 <br/><br/>
 <strong  className='text-[#40EF14]'>Backend Mastery: </strong>
 On the backend, I thrive in the world of Node.js, architecting robust and scalable server-side applications. My proficiency lies in optimizing performance and ensuring the backend infrastructure seamlessly supports the frontend, providing users with a seamless experience.<Link id='backend' to = "/Backend" style= {{borderBottom: hover === 'backend'? '2px solid #40EF14' : 'none'}}
-    onMouseOver={()=>{handleClick('backend')}}>See more...</Link>
+    onMouseOver={()=>{handleClick('backend')}}> See more...</Link>
 
 
 <br/><br/>
 <strong  className='text-[#40EF14]'>UI/UX Proficiency: </strong>
 User-centric design is at the heart of my work. I am proficient in utilizing tools like Figma, Jira, and Maze to transform complex concepts into intuitive, visually appealing interfaces. My expertise in UI/UX design ensures that every project I undertake is not just functional but also aesthetically pleasing, enhancing user engagement and satisfaction.<Link id='uiux' to = "/UIUX" style= {{borderBottom: hover === 'uiux'? '2px solid #40EF14' : 'none'}}
-    onMouseOver={()=>{handleClick('uiux')}}>See more...</Link>
+    onMouseOver={()=>{handleClick('uiux')}}> See more...</Link>
 
 <br/><br/>
 <strong  className='text-[#40EF14]'>Graphic Arts Designer: </strong>
 Beyond code, I am a creative soul with a flair for graphic arts. I bring ideas to life through captivating visuals, merging functionality with creativity to deliver compelling designs that leave a lasting impression.<Link id='graphicart' to = "/Graphicart" style= {{borderBottom: hover === 'graphicart'? '2px solid #40EF14' : 'none'}}
-    onMouseOver={()=>{handleClick('graphicart')}}>See more...</Link>
+    onMouseOver={()=>{handleClick('graphicart')}}> See more...</Link>
 
 
 <br/><br/>

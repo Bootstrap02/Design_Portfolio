@@ -482,6 +482,34 @@ const Uiuxdesign = [
   ];
 
   const graphic = [
+        {
+            image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698843373/Design_Portfolio/ibra3_jbgn3l.jpg',
+            title: 'Abu Hurairah Investment Limited',
+            description: 'Edible soya beans packaging design using Figma, Photoshop, dribbble.com and other internet research packages',
+        },
+
+        {
+            image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698843373/Design_Portfolio/ibra2_zq9fgr.jpg',
+            title: 'Abu Hurairah Investment Limited',
+            description: 'Edible soya beans packaging design using Figma, Photoshop, dribbble.com and other internet research packages',
+
+        },
+
+        {
+            image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698843373/Design_Portfolio/ibra1_zab7tg.jpg',
+            title: 'Abu Hurairah Investment Limited',
+            description: 'Edible soya beans packaging design using Figma, Photoshop, dribbble.com and other internet research packages',
+
+        },
+
+        {
+            image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698843373/Design_Portfolio/ibra4_doubbc.jpg',
+            title: 'Abu Hurairah Investment Limited',
+            description: 'Edible soya beans packaging design using Figma, Photoshop, dribbble.com and other internet research packages',
+
+        },
+
+
     {
         image: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698219231/Design_Portfolio/0d6fa7181697199.65201ef42d2e1_j8wxjg.png',
         title: 'CAC 21 days Revival Prayer',

@@ -45,7 +45,7 @@ const [modals, setModals] = useState(false);
         </div>
     </nav>
     
-<div className=' flex flex-col mb-8 '>
+<div className=' flex flex-col mb-8 items-center justify-center '>
 <button className="hidden  max-lg:block " onClick={openModals}>
   <img src={Images.foodweb.menu} width={50}  />
     {modals && <Navmodal closeModals={closeModals} />}

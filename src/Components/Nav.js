@@ -45,8 +45,8 @@ const [modals, setModals] = useState(false);
         </div>
     </nav>
     
-<div className='flex flex-col gap-1'>
-<button className="hidden  max-lg:block mb-8 " onClick={openModals}>
+<div className=' flex flex-col mb-8 '>
+<button className="hidden  max-lg:block " onClick={openModals}>
   <img src={Images.foodweb.menu} width={50}  />
     {modals && <Navmodal closeModals={closeModals} />}
 </button>

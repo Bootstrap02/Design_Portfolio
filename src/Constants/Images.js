@@ -19,6 +19,10 @@ const foodweb ={
     sent : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697624602/Isioma_project/work/Group_211_wolujt.png',
     menu : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697637015/Isioma_project/work/menu_e3d5xf.png',
     cancels : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455020/Isioma_project/work/cancels_ydqs2v.png',
+    linkedin : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455238/Isioma_project/work/linkedin_zxht6a.png',
+    instagram : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455238/Isioma_project/work/instagram_gt63ic.png',
+    facebook : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455019/Isioma_project/work/facebook_egls0e.png',
+    github : 'https://res.cloudinary.com/dneejvhch/image/upload/v1699127049/Design_Portfolio/download_buujqp.png',
 
 }
 

@@ -46,11 +46,17 @@ const closeSuccessMessage = () => {
 
   return (
     <div className='flex justify-between max-lg:justify-center  items-start  p-6 max-lg:p-2  max-lg:flex-col w-[100%]]'>
-        <div className='mx-6   gap-4 flex flex-col items-center justify-center w-[50%] max-lg:w-[90%]'>
+        <div className='mx-6 max-lg:mx-2   gap-4 flex flex-col items-center justify-center w-[50%] max-lg:w-[90%]'>
             <img className='w-[80%]' src={Images.foodweb.potrait} alt='potrait' />
-            <div>
-<div>
-<div className=' m-4'  onClick={openModals}><Buttons/></div>
+            <div className='flex flex-col gap-3 max-lg:gap-0 items-center justify-center'>
+              <div  className=' m-4 max-lg:m-0'> <button className='flex max-lg:text-[15px] gap-1 px-8 py-2 max-lg:p-1 justify-center items-center  bg-white shadow-lg rounded-md'><img src={Images.foodweb.github} width={15}/>
+                <a  href="https://github.com/Bootstrap02" target="_blank"><strong>Github</strong></a></button></div>
+             
+<div className='flex gap-2 items-center justify center'>
+<div  className=' m-4 max-lg:mx-0'><button className='flex gap-1 px-8 py-2 max-lg:p-1  max-lg:text-[15px] justify-center items-center bg-white shadow-lg rounded-md'><img src={Images.foodweb.instagram} width={15}/>
+                <a  href="https://instagram.com/louisjoseph7969?igshid=NzZlODBkYWE4Ng==" target="_blank"><strong>Instagram</strong></a></button></div>
+
+<div><div className=' m-4 max-lg:m-0'  onClick={openModals}><Buttons/></div>
               {modals && <Postmodals closeModals={closeModals} openSuccessMessage = {openSuccessMessage} />}
               <div  style={modalStyle} className="w-[1000px] max-lg:w-[300px]" >
           {successMessage &&  <div className=' bg-black rounded-lg w-full flex flex-col justify-center items-center m-4 p-4 max-lg:p-2 max-lg:m-2 '>
@@ -63,8 +69,14 @@ const closeSuccessMessage = () => {
       <img src= {Images.foodweb.sent} width={100}/>
     </div>
   </div>}
-        </div>
+        </div></div>
+        <div  className=' m-4 max-lg:mx-0'> <button className='flex gap-1 px-8 py-2 max-lg:text-[15px] max-lg:p-1 justify-center items-center bg-white shadow-lg rounded-md'><img src={Images.foodweb.facebook} width={15}/>
+                <a  href="https://m.facebook.com/profile.php/?id=100011187841047" target="_blank"><strong>Facebook</strong></a></button></div>
+       
             </div>
+            <div  className=' m-4 max-lg:m-0'><button className='flex gap-1 px-8 py-2 max-lg:p-1 max-lg:text-[15px] justify-center items-center bg-white shadow-lg rounded-md'><img src={Images.foodweb.linkedin} width={15}/>
+                <a  href="https://www.linkedin.com/in/louis-joseph-634558153/" target="_blank"><strong>LinkedIn</strong></a></button></div>
+            
 </div>
         </div>
 

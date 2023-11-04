@@ -50,7 +50,7 @@ const [modals, setModals] = useState(false);
   <img src={Images.foodweb.menu} width={50}  />
     {modals && <Navmodal closeModals={closeModals} />}
 </button>
-<p><strong>My Works</strong></p>
+<p><strong className='text-white'>My Works</strong></p>
 </div>
 
    </div>

@@ -15,14 +15,13 @@ const foodweb ={
     design : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697441912/Design_Portfolio/design_z4hlfj.png',            
     research : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697442028/Design_Portfolio/research_yfqtgs.png',             
     test : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697442039/Design_Portfolio/test_yff5qm.png',   
-    cancel : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455019/Isioma_project/work/cancel_o0xflr.png',
-    sent : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697624602/Isioma_project/work/Group_211_wolujt.png',
-    menu : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697637015/Isioma_project/work/menu_e3d5xf.png',
-    cancels : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455020/Isioma_project/work/cancels_ydqs2v.png',
-    linkedin : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455238/Isioma_project/work/linkedin_zxht6a.png',
-    instagram : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455238/Isioma_project/work/instagram_gt63ic.png',
-    facebook : 'https://res.cloudinary.com/dneejvhch/image/upload/v1697455019/Isioma_project/work/facebook_egls0e.png',
-    github : 'https://res.cloudinary.com/dneejvhch/image/upload/v1699127049/Design_Portfolio/download_buujqp.png',
+    cancel : 'https://res.cloudinary.com/dtciabpag/image/upload/v1738752793/images_ijcvrw.png',
+    sent : 'https://res.cloudinary.com/dtciabpag/image/upload/v1738754507/icon-correct-24-1_tqlobe.png',
+    menu : 'https://res.cloudinary.com/dtciabpag/image/upload/v1738752627/Hamburger_icon.svg_cxb2r1.png',
+    linkedin : 'https://res.cloudinary.com/dtciabpag/image/upload/v1738742382/png-clipart-linkedin-linkedin-thumbnail_wxl57z.png',
+    cv : 'https://res.cloudinary.com/dtciabpag/image/upload/v1738739806/file_nj7fut.png',
+    facebook : 'https://res.cloudinary.com/dtciabpag/image/upload/v1738742382/aaw6si4mt_c4f7jc.webp',
+    github : 'https://res.cloudinary.com/dtciabpag/image/upload/v1738742382/png-clipart-github-computer-icons-github-logo-monochrome-thumbnail_p8vytn.png',
 
 }
 
@@ -381,27 +380,55 @@ const uiuxquikapp = [
 
 const Frontend = [
    {
-        title: "Alfredo_Bar",
-      link: "https://alfredo-bar.netlify.app/",
-      description: "A luxurious lounge and bar located in Festac,Lagos, Nigeria built with react, vanilla javascript and plain css. ",
-      film: "https://res.cloudinary.com/dneejvhch/image/upload/v1698082926/Design_Portfolio/alfred1_b7tqqq.png",
-      photos: ["https://res.cloudinary.com/dneejvhch/image/upload/v1698082926/Design_Portfolio/alfred1_b7tqqq.png", 
-        "https://res.cloudinary.com/dneejvhch/image/upload/v1698082956/Design_Portfolio/alfred2_a5yvbv.png", 
-        "https://res.cloudinary.com/dneejvhch/image/upload/v1698082962/Design_Portfolio/alfred3_qyydrb.png",
-        "https://res.cloudinary.com/dneejvhch/image/upload/v1698082959/Design_Portfolio/WhatsApp_Image_2023-10-23_at_6.09.56_PM_wp8shh.jpg"
+        title: "Campusify",
+      link: "https://campusify.net",
+      description: "This is an e-commerce platform that currently operates accross all Universities in Nigeria to ptomote Trade, Commerce and give SMEs the chance to grow their business by connecting them with buyers. It is  built with react,Tailwind, Node, Express, MongoDB, JWTokens, vanilla javascript and numerous other packages. ",
+      description2: "Dies ist eine E-Commerce-Plattform, die derzeit an allen Universitäten in Nigeria tätig ist, um Handel und Gewerbe zu fördern und kleinen und mittleren Unternehmen (KMU) die Möglichkeit zu geben, ihr Geschäft auszubauen, indem sie mit Käufern verbunden werden. Sie wurde mit React, Tailwind, Node, Express, MongoDB, JWTokens, Vanilla JavaScript und zahlreichen weiteren Paketen entwickelt ",
+      film: "https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/Camp_d8ooor.png",
+      photos: ["https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/Camp_d8ooor.png", 
+        "https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/Camp1_yev5kx.png", 
+        "https://res.cloudinary.com/dtciabpag/image/upload/v1738749548/camp3_yzwtwc.png",
+        "https://res.cloudinary.com/dtciabpag/image/upload/v1738749548/camp2_ktvtiq.png"
     ]
     },
     {
         title: "CChomes Limited",
       link: "http://cchomes.vercel.app/",
       description:" A real-estate firm located in Abuja with Property listings all over Nigeria.built with react, vanilla javascript, tailwind and bootstrap. ",
-      film: "https://res.cloudinary.com/dneejvhch/image/upload/v1698083059/Design_Portfolio/cc1_y5mdqy.png",
-      photos: ["https://res.cloudinary.com/dneejvhch/image/upload/v1698083059/Design_Portfolio/cc1_y5mdqy.png", 
-      "https://res.cloudinary.com/dneejvhch/image/upload/v1698082936/Design_Portfolio/cc2_lmijzw.png", 
-      "https://res.cloudinary.com/dneejvhch/image/upload/v1698082986/Design_Portfolio/cc3_pywonu.png",
-      "https://res.cloudinary.com/dneejvhch/image/upload/v1698082956/Design_Portfolio/WhatsApp_Image_2023-10-23_at_6.09.55_PM_kt7xfk.jpg" 
+      description2:"Ein Immobilienunternehmen mit Sitz in Abuja, das Immobilienangebote in ganz Nigeria anbietet. Entwickelt mit React, Vanilla JavaScript, Tailwind und Bootstrap. ",
+      film: "https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/cchomes_ccsuze.png",
+      photos: ["https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/cchomes_ccsuze.png", 
+      "https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/cchomes3_tjetn9.png", 
+      "https://res.cloudinary.com/dtciabpag/image/upload/v1738749548/cche_omes2_ybyjxd.png",
+      "https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/cchomes1_kz6owt.png" 
     ]
     }
+   
+  ];
+const Backend = [
+   {
+        title: "Campusify",
+      link: "https://campusify.net",
+description: "This is an e-commerce platform that currently operates accross all Universities in Nigeria to ptomote Trade, Commerce and give SMEs the chance to grow their business by connecting them with buyers. It is  built with react,Tailwind, Node, Express, MongoDB, JWTokens, vanilla javascript and numerous other packages. ",
+      description2: "Dies ist eine E-Commerce-Plattform, die derzeit an allen Universitäten in Nigeria tätig ist, um Handel und Gewerbe zu fördern und kleinen und mittleren Unternehmen (KMU) die Möglichkeit zu geben, ihr Geschäft auszubauen, indem sie mit Käufern verbunden werden. Sie wurde mit React, Tailwind, Node, Express, MongoDB, JWTokens, Vanilla JavaScript und zahlreichen weiteren Paketen entwickelt ",      film: "https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/Camp_d8ooor.png",
+      photos: ["https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/Camp_d8ooor.png", 
+        "https://res.cloudinary.com/dtciabpag/image/upload/v1738749549/Camp1_yev5kx.png", 
+        "https://res.cloudinary.com/dtciabpag/image/upload/v1738749548/camp3_yzwtwc.png",
+        "https://res.cloudinary.com/dtciabpag/image/upload/v1738749548/camp2_ktvtiq.png"
+    ]
+    },
+    {
+        title: "Campusify Mobile App",
+  description: "This is an e-commerce platform that currently operates accross all Universities in Nigeria to ptomote Trade, Commerce and give SMEs the chance to grow their business by connecting them with buyers. It is  built with react,Tailwind, Node, Express, MongoDB, JWTokens, vanilla javascript and numerous other packages. ",
+      description2: "Dies ist eine E-Commerce-Plattform, die derzeit an allen Universitäten in Nigeria tätig ist, um Handel und Gewerbe zu fördern und kleinen und mittleren Unternehmen (KMU) die Möglichkeit zu geben, ihr Geschäft auszubauen, indem sie mit Käufern verbunden werden. Sie wurde mit React, Tailwind, Node, Express, MongoDB, JWTokens, Vanilla JavaScript und zahlreichen weiteren Paketen entwickelt ",        link: '/Choplifeweb',
+      film: 'https://res.cloudinary.com/dtciabpag/image/upload/v1738749523/Android_Expanded_-_8_-_Copy_-_Copy_kh4we1.png',
+      photos: [
+        'https://res.cloudinary.com/dtciabpag/image/upload/v1738749523/Android_Expanded_-_8_-_Copy_-_Copy_kh4we1.png', 
+        'https://res.cloudinary.com/dtciabpag/image/upload/v1738749523/Android_Expanded_-_7_xo01fj.png', 
+        'https://res.cloudinary.com/dtciabpag/image/upload/v1738749521/Android_Expanded_-_8_-_Copy_kw7qgu.png',
+        'https://res.cloudinary.com/dtciabpag/image/upload/v1738749521/Android_Expanded_-_7_-_Copy_-_Copy_tvy8uj.png',
+    ]
+    },
    
   ];
 
@@ -413,75 +440,17 @@ const Frontend = [
 
 const Uiuxdesign = [
    {
-        title: "Choplife Website",
-      description: "A Food Ordering Company website. located in ,Lagos, Nigeria ",
-      link: '/Choplifeweb',
-      film: 'https://res.cloudinary.com/dneejvhch/image/upload/v1697441918/Design_Portfolio/mock3_wybudf.png',
+        title: "Campusify Mobile App",
+  description: "This is an e-commerce platform that currently operates accross all Universities in Nigeria to ptomote Trade, Commerce and give SMEs the chance to grow their business by connecting them with buyers. It is  built with react,Tailwind, Node, Express, MongoDB, JWTokens, vanilla javascript and numerous other packages. ",
+      description2: "Dies ist eine E-Commerce-Plattform, die derzeit an allen Universitäten in Nigeria tätig ist, um Handel und Gewerbe zu fördern und kleinen und mittleren Unternehmen (KMU) die Möglichkeit zu geben, ihr Geschäft auszubauen, indem sie mit Käufern verbunden werden. Sie wurde mit React, Tailwind, Node, Express, MongoDB, JWTokens, Vanilla JavaScript und zahlreichen weiteren Paketen entwickelt ",        link: '/Choplifeweb',
+      film: 'https://res.cloudinary.com/dtciabpag/image/upload/v1738749523/Android_Expanded_-_8_-_Copy_-_Copy_kh4we1.png',
       photos: [
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1697441918/Design_Portfolio/mock3_wybudf.png', 
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1697441964/Design_Portfolio/mock2_p2ovbf.png', 
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1697441944/Design_Portfolio/mock4_erybew.png',
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1697441970/Design_Portfolio/mock8_s8zs2e.png',
+        'https://res.cloudinary.com/dtciabpag/image/upload/v1738749523/Android_Expanded_-_8_-_Copy_-_Copy_kh4we1.png', 
+        'https://res.cloudinary.com/dtciabpag/image/upload/v1738749523/Android_Expanded_-_7_xo01fj.png', 
+        'https://res.cloudinary.com/dtciabpag/image/upload/v1738749521/Android_Expanded_-_8_-_Copy_kw7qgu.png',
+        'https://res.cloudinary.com/dtciabpag/image/upload/v1738749521/Android_Expanded_-_7_-_Copy_-_Copy_tvy8uj.png',
     ]
     },
-
-    
-
-
-
-    
-   {
-        title: "Choplife Mobile app",
-      description: "A Food Ordering Company mobile app. located in ,Lagos, Nigeria ",
-      link: '/Choplifeapp',
-      film: 'https://res.cloudinary.com/dneejvhch/image/upload/v1697451624/Design_Portfolio/Rectangle_7_gnnang.png',
-      photos: [
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1697451624/Design_Portfolio/Rectangle_7_gnnang.png', 
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1697451644/Design_Portfolio/Rectangle_9_ixpyh4.png',
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1697451655/Design_Portfolio/Rectangle_10_wvtr9k.png',
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1697451425/Design_Portfolio/homepageapp_l4qvmy.png', 
-    ]
-    },
-
-    
-
-    
-    
-    
-    
-
-
-   {
-        title: "Quikdoctor Medical Consultancy",
-      description: "An online AI Medical consultancy firm website",
-      link: '/Quickdoctorweb',
-      film: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698058955/Design_Portfolio/quikhome1_g3dtvg.png',
-      photos: [
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058955/Design_Portfolio/quikhome1_g3dtvg.png', 
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058965/Design_Portfolio/quiklogin_pvicu0.png',
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058951/Design_Portfolio/quickchatweb_kdsxyn.png',
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058966/Design_Portfolio/speakwithadoctorweb_lny9pg.png',
-    ]
-    },
-
-    
-
-
-
-   {
-    title: "Quikdoctor Medical Consultancy",
-    description: "An online AI Medical consultancy firm mobile app",
-    link: '/Quickdoctorapp',
-      film: 'https://res.cloudinary.com/dneejvhch/image/upload/v1698058939/Design_Portfolio/app1splashscreen_kz1sij.png',
-      photos: [
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058939/Design_Portfolio/app1splashscreen_kz1sij.png', 
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058946/Design_Portfolio/appseizure_r0mn1l.png',
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058939/Design_Portfolio/apphome_z9ngor.png',
-        'https://res.cloudinary.com/dneejvhch/image/upload/v1698058940/Design_Portfolio/appmyhistory_imhkqa.png',
-    ]
-    },
-
-    
    
   ];
 
@@ -580,4 +549,4 @@ const Uiuxdesign = [
 
 
 
-export default {foodweb, uiuxweb, foodapp, uiuxapp, quikweb, quikapp, graphic, uiuxquikweb, uiuxquikapp, Frontend, Uiuxdesign};
+export default {foodweb, uiuxweb, foodapp, uiuxapp, quikweb, quikapp, graphic, uiuxquikweb, uiuxquikapp, Backend, Frontend, Uiuxdesign};

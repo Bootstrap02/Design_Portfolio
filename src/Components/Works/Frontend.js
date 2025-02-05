@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import images from '../../Constants/Images';
 
-const Frontend = () => {
+const Frontend = ({language}) => {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   const handleImageClick = (index) => {
@@ -22,7 +22,7 @@ const Frontend = () => {
               width={550}
               height={250}
               loading="lazy"
-              alt="video"
+              alt="image"
             />
           </div>
 
@@ -30,9 +30,9 @@ const Frontend = () => {
             <h1><strong>{photo.title}</strong></h1>
             <div className= " flex  gap-6  items-center justify-center">
             <h4>
-              <strong>{photo.description}</strong>
+             {language === "English"? <strong>{photo.description}</strong> :<strong>{photo.description2}</strong> } 
             </h4>
-          <a href ={photo.link} target="_blank">  <button className='px-8 py-2  max-lg:px-4  max-lg:py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>Visit</strong></button></a>
+          <a href ={photo.link} target="_blank">  <button className='px-8 py-2  max-lg:px-4  max-lg:py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>{language ==="English"? "Visit" : "besuchen" }</strong></button></a>
             </div>
             
           </div>

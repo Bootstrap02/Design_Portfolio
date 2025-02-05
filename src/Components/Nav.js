@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Images from '../Constants/Images';
 import Navmodal from './Navmodal';
+import { FaBars } from "react-icons/fa";
 
-const Nav = () => {
+const Nav = ({language, openLanguage, click, setClick}) => {
 
-const [click, setClick] = useState(false)
 
 const handleClick = (id) =>{
   setClick(id)
@@ -18,13 +17,30 @@ const [modals, setModals] = useState(false);
   const closeModals = () => {
     setModals(false);
   };
+  const activeButton ={
+    backgroundColor: '#40EF14',
+    color: 'black',
+    fontWeight: 'bold',
+    padding: '5px',
+   //  borderRadius: '6px 0 0 6px '
+     };
+   
+     const inActiveButton ={
+    backgroundColor: 'gray',
+    color: 'white',
+    fontWeight: 'bold',
+    padding: '5px',
+   //  borderRadius: ' 0 6px 6px 0'
+     }
 
 
   return (
-   <div className='m-4 flex justify-between items-center p-2 w-[90%]'>
-    <div className=''>
-      <img src= {Images.foodweb.logo} alt='logo' width={70} height={70} loading='lazy'/>
-      <h3>Portfolio</h3>
+   <div className='flex justify-between items-center p-2 w-[90%]'>
+     <div className='flex  border-2 border-white w-[fit-content] rounded-[6px] mx-4'>
+      <button className='' style={language === 'English' ? activeButton : inActiveButton} 
+      onClick={() => openLanguage('English')}>English</button>
+      <button className='' style={language === 'German' ? activeButton : inActiveButton} 
+      onClick={() => openLanguage('German')}>Deutsch</button>
         </div>
      <nav className=' flex justify-between items-center p-2 max-lg:hidden text-white font-bold '>
         <div className='flex p-2 gap-8 mx-8' style={{borderBottom : '1px solid #D9D9D9 '}}>
@@ -36,10 +52,9 @@ const [modals, setModals] = useState(false);
 
             <Link id='backend' to = "/Backend"  style= {{borderBottom: click === 'backend'? '2px solid #40EF14' : 'none'}}
     onClick={()=>{handleClick('backend')}}>Back-end</Link>
-            <Link id='uiux' to = "/UIUX"  style= {{borderBottom: click === 'uiux'? '2px solid #40EF14' : 'none'}}
-    onClick={()=>{handleClick('uiux')}}>UI/UX Design</Link>
-            <Link id='graphicart' to = "/Graphicart"  style= {{borderBottom: click === 'graphicart'? '2px solid #40EF14' : 'none'}}
-    onClick={()=>{handleClick('graphicart')}}>Graphic-Art Design</Link>
+
+            <Link id='apps' to = "/UIUX"  style= {{borderBottom: click === 'apps'? '2px solid #40EF14' : 'none'}}
+    onClick={()=>{handleClick('apps')}}>Apps</Link>
             <Link id='contact' to = "/Contact"    style= {{borderBottom: click === 'contact'? '2px solid #40EF14' : 'none'}}
     onClick={()=>{handleClick('contact')}}>Contact</Link>
         </div>
@@ -47,10 +62,10 @@ const [modals, setModals] = useState(false);
     
 <div className=' flex flex-col mb-8 items-center justify-center '>
 <button className="hidden  max-lg:block " onClick={openModals}>
-  <img src={Images.foodweb.menu} width={50}  />
+<FaBars size={30} color="white" />
     {modals && <Navmodal closeModals={closeModals} />}
 </button>
-<p><strong className='text-white'>My Works</strong></p>
+<p className="max-lg:hidden"><strong className='text-lg text-[#FEBD69]'>{language === "English"? "Welcome" : "Willkommen"}</strong></p>
 </div>
 
    </div>

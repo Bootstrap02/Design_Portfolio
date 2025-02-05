@@ -1,6 +1,7 @@
 import React from "react";
-import Images from '../Constants/Images';
 import { Link, NavLink } from "react-router-dom";
+import { MdClose } from "react-icons/md";
+
 
 const Navmodal = ({ closeModals }) => {
   const modalStyle = {
@@ -19,7 +20,7 @@ const Navmodal = ({ closeModals }) => {
     <div style={modalStyle} className=" w-[100%]">
       <nav className="flex flex-col   bg-slate-950 p-2 border-2 border-[#d4af37]">
         <button className="ml-auto m-2 p-2" onClick={handleCloseClick}>
-          <img src={Images.foodweb.cancels} width={60} height={50} loading="lazy" />
+        <MdClose size={30} color="white" />
         </button>
         <ul onClick={handleCloseClick} className="flex flex-col align-items-center justify-center gap-8 p-4  text-white">
           <li
@@ -44,13 +45,7 @@ const Navmodal = ({ closeModals }) => {
             className="font-lg  font-bold my-4 text-center border-bottom border-white"
             style={{ borderBottom: "white solid 1px" }}
           >
-            <Link to="/UIUX">UI/UX Design</Link>
-          </li>
-          <li
-            className="font-lg  font-bold my-4 text-center border-bottom border-white"
-            style={{ borderBottom: "white solid 1px" }}
-          >
-            <Link to="/Graphicart">Graphic-Art-Design</Link>
+            <Link to="/UIUX">Apps</Link>
           </li>
           <li
             className="font-lg  font-bold my-4 text-center border-bottom border-white"

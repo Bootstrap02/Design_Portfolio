@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Frontsend from './Works/Frontend'
 
-const Frontend = () => {
+const Frontend = ({language, setClick}) => {
+  useEffect(()=>{
+  setClick("frontend")
+  },[])
   return (
     <div className='my-4'>
-      <Frontsend/>
+      <Frontsend language={language}/>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import images from '../../Constants/Images';
 import { Link } from 'react-router-dom';
 
-const Uiux = () => {
+const Mobileapp = ({language}) => {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   const handleImageClick = (index) => {
@@ -31,9 +31,9 @@ const Uiux = () => {
             <h1><strong>{photo.title}</strong></h1>
             <div className= " flex  gap-6  items-center justify-center">
             <h2>
-              <strong>{photo.description}</strong>
+            {language === "English"? <strong>{photo.description}</strong> :<strong>{photo.description2}</strong> }
             </h2>
-            <Link to={photo.link}> <button className='px-8 py-2  max-lg:px-4  max-lg:py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>See More...</strong></button></Link>
+            <Link to={photo.link}> <button className='px-8 py-2  max-lg:px-4  max-lg:py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>{language ==="English"? "Visit" : "besuchen" }</strong></button></Link>
             </div>
             
           </div>
@@ -60,4 +60,4 @@ const Uiux = () => {
   );
 };
 
-export default Uiux;
+export default Mobileapp;

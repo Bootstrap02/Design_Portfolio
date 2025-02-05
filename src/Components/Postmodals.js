@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import images from '../Constants/Images';
+import { MdClose } from "react-icons/md";
 
 
-const Postmodals = ({ closeModals, openSuccessMessage }) => {
+const Postmodals = ({ closeModals, openSuccessMessage, language }) => {
     const modalStyle = {
       zIndex: "2000",
       position: "fixed",
@@ -52,18 +52,18 @@ const Postmodals = ({ closeModals, openSuccessMessage }) => {
       >
         <div className="flex flex-row py2  text-white ">
           <div>
-            <h2 className="text-center">Send me a Message</h2>
+            <h2 className="text-center">{language === "English" ? "Send me a Message" : "Schick mir eine Nachricht"}</h2>
           </div>
           <div className="ml-auto">
-            <button className="bg-white" onClick={closeModals}>
-              <img src={images.foodweb.cancel} />
+            <button className="" onClick={closeModals}>
+               <MdClose size={30} color="white" />
             </button>
           </div>
         </div>
         <form onSubmit={handleFormSubmit}>
           <div className="my-2">
             <label className=" text-white" htmlFor="Name">
-              Name
+            {language === "English" ? "Name" : "Name"} 
             </label>
             <input
               type="text"
@@ -79,7 +79,7 @@ const Postmodals = ({ closeModals, openSuccessMessage }) => {
           </div>
           <div className="my-2">
             <label className=" text-white" htmlFor="email">
-              Email Address
+            {language === "English" ? "Email Address" : "E-Mail-Adresse"}
             </label>
             <input
               type="text"
@@ -94,7 +94,7 @@ const Postmodals = ({ closeModals, openSuccessMessage }) => {
           </div>
           <div className="my-2">
             <label className=" text-white" htmlFor="phoneNumber">
-              Phone Number
+            {language === "English" ? "Phone Number" : "Telefonnummer"} 
             </label>
             <input
               type="text"
@@ -110,7 +110,7 @@ const Postmodals = ({ closeModals, openSuccessMessage }) => {
           </div>
           <div>
               <label className="text-white" htmlFor="message">
-                Your Message
+              {language === "English" ? "Your Message" : "Deine Nachricht"}
               </label>
               <textarea
                 id="message"
@@ -127,7 +127,7 @@ const Postmodals = ({ closeModals, openSuccessMessage }) => {
             type="submit"
             className="w-full py-2 px-4 rounded-lg font-semibold my-2 bg-[#D88538]"
           >
-            Send Message
+             {language === "English" ? "Send Message" : "Nachricht senden"}  
           </button>
         </form>
       

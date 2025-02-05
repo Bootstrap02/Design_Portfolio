@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { MdClose } from "react-icons/md";
 import images from '../Constants/Images';
 
-
-const Contact = () => {
+const Contact = ({language}) => {
   const backgroundImageStyle = {
     backgroundImage: `url(${images.quikapp.mockBG})`,
     backgroundSize: "cover",
@@ -41,8 +41,8 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
       if (response.ok) {
-        console.log("Form submitted successfully!");
-        setSuccessMessage("Message sent successfully!"); // Set success message
+        setSuccessMessage(language === "English" ? "Message sent successfully!" : "Nachricht erfolgreich gesendet!")
+; // Set success message
         setFormData({ // Reset form fields
           fullName: "",
           email: "",
@@ -68,13 +68,16 @@ const Contact = () => {
         className="flex justify-center items-center m-8 rounded-sm text-4xl font-bold"
        
       >
-        <h1>Contact Me</h1>
+        <h1>{language=== "English"? "Contact Me" : "Kontaktiere mich"}</h1>
       </div>
       <div className="max-lg:w-[80%] m-2">
        
         <p>
-           You can contact me via phone, email, whatsapp, linkedIn, facebook. I a available at all hours.you can use any of the information on this page or fill the simple form provided below.
-        </p>
+        {language === "English" ?
+         "You can contact me via phone, email, whatsapp, linkedIn, facebook. I a available at all hours.you can use any of the information on this page or fill the simple form provided below." 
+         :"Sie können mich telefonisch, per E-Mail, WhatsApp, LinkedIn oder Facebook kontaktieren. Ich bin jederzeit verfügbar. Sie können jede der Informationen auf dieser Seite verwenden oder das einfache Formular unten ausfüllen."
+        }
+       </p>
       </div>
       <div className="flex gap-8 justify-center max-lg:flex-col">
         
@@ -84,7 +87,7 @@ const Contact = () => {
           >
             <div className="my-2 ">
               <label className="text-white" htmlFor="fullName">
-                Full Name
+              {language === "English" ? "Full Name" : "Vollständiger Name"}
               </label>
               <input
                 type="text"
@@ -100,7 +103,7 @@ const Contact = () => {
             </div>
             <div className="my-2 ">
               <label className="text-white" htmlFor="email">
-                Email Address
+              {language === "English" ? "Email Address" : "E-Mail-Adresse"}
               </label>
               <input
                 type="text"
@@ -115,7 +118,7 @@ const Contact = () => {
             </div>
             <div className="my-2 ">
               <label className="text-white" htmlFor="phoneNumber">
-                Phone Number
+              {language === "English" ? "Phone Number" : "Telefonnummer"} 
               </label>
               <input
                 type="text"
@@ -131,7 +134,7 @@ const Contact = () => {
             </div>
             <div className='my-2'>
               <label className="text-white" htmlFor="message">
-                Your Message
+              {language === "English" ? "Your Message" : "Deine Nachricht"}
               </label>
               <textarea
                 id="message" 
@@ -148,7 +151,7 @@ const Contact = () => {
               type="submit"
               className="w-full py-2 px-4 rounded-lg font-semibold my-2 bg-[#D88538]"
             >
-              Submit
+              {language === "English" ? "Send Message" : "Nachricht senden"}
             </button>
           </form>
         
@@ -157,7 +160,7 @@ const Contact = () => {
           
     <div className="flex flex-col justify-center w-full gap-4 items-center rounded-lg border-2 border-[#B59410] p-8 max-lg:p-4">
     <button className="bg-white ml-auto" onClick={() => setSuccessMessage(null)}>
-      <img src= {images.foodweb.cancel}/>
+      <MdClose size={30} color="white" />
       </button>
       <p className='text-white font-black text-center text-4xl max-lg:text-2xl'>{successMessage}</p>
       <img src= {images.foodweb.sent} width={200}/>

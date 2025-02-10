@@ -90,7 +90,7 @@ const closeSuccessMessage = () => {
             {language === "English"? 
             <a  href="https://www.linkedin.com/in/louis-joseph-634558153/" target="_blank"><strong>LinkedIn</strong></a>
             :
-            <a  href="https://www.linkedin.com/in/louis-joseph-634558153/" target="_blank"><strong>LinkedIn</strong></a>
+            <a  href="linkedin.com/in/louis-joseph-8341bb128" target="_blank"><strong>LinkedIn</strong></a>
 }
             </button></div>
                 </div>
@@ -119,19 +119,13 @@ On the backend, I thrive in the world of Node.js, architecting robust and scalab
 
 
 <br/><br/>
-<strong  className='text-[#40EF14]'>UI/UX Proficiency: </strong>
-User-centric design is at the heart of my work. I am proficient in utilizing tools like Figma, Jira, and Maze to transform complex concepts into intuitive, visually appealing interfaces. My expertise in UI/UX design ensures that every project I undertake is not just functional but also aesthetically pleasing, enhancing user engagement and satisfaction. <Link  id='uiux' to = "/UIUX" 
+<strong  className='text-[#40EF14]'>Mobile-app Proficiency: </strong>
+I have strong expertise in mobile app development using React Native, JavaScript, and React, with a focus on creating intuitive user experiences and clean interfaces. I efficiently integrate a variety of third-party packages to enhance app functionality and performance. Having built apps with Expo, I have successfully deployed them to both Google Play Store and Apple App Store. Additionally, I am well-versed in the build and deployment process, ensuring smooth and efficient releases. <Link  id='apps' to = "/UIUX" 
     ><button className='border-2 border-[#B59410] p-2'><strong> {language=== "English"? "See more..." : "Mehr erfahren..."}</strong></button></Link>
 
 <br/><br/>
-<strong  className='text-[#40EF14]'>Graphic Arts Designer: </strong>
-Beyond code, I am a creative soul with a flair for graphic arts. I bring ideas to life through captivating visuals, merging functionality with creativity to deliver compelling designs that leave a lasting impression. <Link  id='graphicart' to = "/Graphicart"
-  ><button className='border-2 border-[#B59410] p-2'><strong> {language=== "English"? "See more..." : "Mehr erfahren..."}</strong></button></Link>
-
-
-<br/><br/>
 <strong  className='text-[#40EF14]'>Tools & Technologies:: </strong>
-I am well-versed in a range of tools and packages, including Figma, Jira, Maze, and more, allowing me to streamline collaboration, enhance productivity, and deliver exceptional results.
+I am well-versed in a range of tools and packages, including Git amd Github, Docker, Expo, Cloudinary, MongoDB..., allowing me to streamline collaboration, enhance productivity, and deliver exceptional results.
 <br/><br/>
 I am deeply enthusiastic about technology and design, always eager to take on new challenges and create meaningful solutions. Collaborative, innovative, and detail-oriented, I am dedicated to delivering high-quality work that exceeds expectations.
 <br/><br/>
@@ -157,22 +151,19 @@ Auf der Backend-Seite blühe ich in der Welt von Node.js auf und entwickle robus
 </Link>
 
 <br/><br/>
-<strong className='text-[#40EF14]'>UI/UX-Kompetenz: </strong>
-Benutzerzentriertes Design steht im Mittelpunkt meiner Arbeit. Ich beherrsche den Einsatz von Tools wie Figma, Jira und Maze, um komplexe Konzepte in intuitive, visuell ansprechende Oberflächen zu verwandeln. Meine Expertise im UI/UX-Design sorgt dafür, dass jedes Projekt, das ich umsetze, nicht nur funktional, sondern auch ästhetisch ansprechend ist, was die Benutzerbindung und Zufriedenheit erhöht. <Link id='uiux' to='/UIUX'>
-    <button className='border-2 border-[#B59410] p-2'><strong> Mehr erfahren ...</strong></button>
-</Link>
+<strong className='text-[#40EF14]'>Mobile-App-Kompetenz: </strong>  
+Ich habe umfangreiche Erfahrung in der Entwicklung von Mobile-Apps mit **React Native, JavaScript und React**, wobei mein Fokus auf der **Schaffung intuitiver Benutzererlebnisse und klarer Benutzeroberflächen** liegt. Ich integriere effizient eine Vielzahl von **Drittanbieter-Paketen**, um die Funktionalität und Leistung der Apps zu verbessern. Nachdem ich Apps mit **Expo** entwickelt habe, konnte ich sie erfolgreich im **Google Play Store und im Apple App Store** veröffentlichen. Darüber hinaus bin ich mit dem **Build- und Deployment-Prozess** bestens vertraut und sorge für reibungslose und effiziente Veröffentlichungen.  
 
-<br/><br/>
-<strong className='text-[#40EF14]'>Grafikdesign-Künstler: </strong>
-Jenseits des Codes bin ich eine kreative Seele mit einem Gespür für grafische Kunst. Ich erwecke Ideen durch fesselnde visuelle Darstellungen zum Leben und kombiniere Funktionalität mit Kreativität, um beeindruckende Designs zu liefern, die einen bleibenden Eindruck hinterlassen. <Link id='graphicart' to='/Graphicart'>
-    <button className='border-2 border-[#B59410] p-2'><strong> Mehr erfahren ...</strong></button>
-</Link>
+<Link id='apps' to="/UIUX">  
+    <button className='border-2 border-[#B59410] p-2'><strong> {language === "English" ? "See more..." : "Mehr erfahren..."}</strong></button>  
+</Link>  
 
-<br/><br/>
-<strong className='text-[#40EF14]'>Tools & Technologien: </strong>
-Ich bin versiert im Umgang mit einer Vielzahl von Tools und Paketen, darunter Figma, Jira, Maze und viele mehr, die es mir ermöglichen, die Zusammenarbeit zu optimieren, die Produktivität zu steigern und außergewöhnliche Ergebnisse zu liefern.
-<br/><br/>
-Ich bin begeistert von Technologie und Design, immer bereit, neue Herausforderungen anzunehmen und bedeutungsvolle Lösungen zu entwickeln. Kollaborativ, innovativ und detailorientiert setze ich mich dafür ein, hochwertige Arbeit zu liefern, die Erwartungen übertrifft.
+<br/><br/>  
+<strong className='text-[#40EF14]'>Tools & Technologien:: </strong>  
+Ich beherrsche eine Vielzahl von Tools und Paketen, darunter **Git und GitHub, Docker, Expo, Cloudinary, MongoDB...**, die es mir ermöglichen, die Zusammenarbeit zu optimieren, die Produktivität zu steigern und außergewöhnliche Ergebnisse zu liefern.  
+
+<br/><br/>  
+Ich bin leidenschaftlich begeistert von Technologie und Design, stets bereit, neue Herausforderungen anzunehmen und sinnvolle Lösungen zu entwickeln. **Kollaborativ, innovativ und detailorientiert**, setze ich mich dafür ein, **hochwertige Arbeit zu liefern, die Erwartungen übertrifft**.  
 <br/><br/>
 Vielen Dank, dass Sie mein Portfolio besucht haben. Ich freue mich auf die Möglichkeit zur Zusammenarbeit, Innovation und gemeinsamen Gestaltung. Lassen Sie uns Ihre Ideen zum Leben erwecken!
 <br/><br/>

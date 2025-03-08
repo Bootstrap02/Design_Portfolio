@@ -442,7 +442,8 @@ const Uiuxdesign = [
    {
         title: "Campusify Mobile App",
   description: "This is an e-commerce platform that currently operates accross all Universities in Nigeria to ptomote Trade, Commerce and give SMEs the chance to grow their business by connecting them with buyers. It is  built with react,Tailwind, Node, Express, MongoDB, JWTokens, vanilla javascript and numerous other packages. ",
-      description2: "Dies ist eine E-Commerce-Plattform, die derzeit an allen Universitäten in Nigeria tätig ist, um Handel und Gewerbe zu fördern und kleinen und mittleren Unternehmen (KMU) die Möglichkeit zu geben, ihr Geschäft auszubauen, indem sie mit Käufern verbunden werden. Sie wurde mit React, Tailwind, Node, Express, MongoDB, JWTokens, Vanilla JavaScript und zahlreichen weiteren Paketen entwickelt ",        link: '/Choplifeweb',
+      description2: "Dies ist eine E-Commerce-Plattform, die derzeit an allen Universitäten in Nigeria tätig ist, um Handel und Gewerbe zu fördern und kleinen und mittleren Unternehmen (KMU) die Möglichkeit zu geben, ihr Geschäft auszubauen, indem sie mit Käufern verbunden werden. Sie wurde mit React, Tailwind, Node, Express, MongoDB, JWTokens, Vanilla JavaScript und zahlreichen weiteren Paketen entwickelt ",        
+      link: 'https://play.google.com/store/apps/details?id=com.bootstrap131.appcampusify',
       film: 'https://res.cloudinary.com/dtciabpag/image/upload/v1738749523/Android_Expanded_-_8_-_Copy_-_Copy_kh4we1.png',
       photos: [
         'https://res.cloudinary.com/dtciabpag/image/upload/v1738749523/Android_Expanded_-_8_-_Copy_-_Copy_kh4we1.png', 

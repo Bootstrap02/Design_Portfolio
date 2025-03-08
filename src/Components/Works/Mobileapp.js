@@ -33,7 +33,7 @@ const Mobileapp = ({language}) => {
             <h2>
             {language === "English"? <strong>{photo.description}</strong> :<strong>{photo.description2}</strong> }
             </h2>
-            <Link to={photo.link}> <button className='px-8 py-2  max-lg:px-4  max-lg:py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>{language ==="English"? "Visit" : "besuchen" }</strong></button></Link>
+            <a href ={photo.link} target="_blank">  <button className='px-8 py-2  max-lg:px-4  max-lg:py-2 bg-black border-2 border-[#FFD700] rounded-md'><strong>{language ==="English"? "Visit" : "besuchen" }</strong></button></a>
             </div>
             
           </div>

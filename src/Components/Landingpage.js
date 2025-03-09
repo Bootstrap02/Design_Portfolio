@@ -62,7 +62,7 @@ const closeSuccessMessage = () => {
 <div className='flex gap-2 items-center justify center'>
 <div  className=' m-4 max-lg:mx-0'><button className='flex gap-1 px-8 py-2 max-lg:p-1  max-lg:text-[15px] justify-center items-center bg-white shadow-lg rounded-md'><img src={Images.foodweb.cv} width={20}/>
 {language === "English"?  
-<a  href= "https://drive.google.com/file/d/1pJCK9fQfysk-N72KdVtv9aoitibc_CTa/view?usp=sharing"  target="_blank"><strong>View CV</strong></a>
+<a  href= "https://drive.google.com/file/d/11FPX-YPaDW_HyU6JAGznEY6-_no0I6e1/view?usp=sharing"  target="_blank"><strong>View CV</strong></a>
 :
 <a  href=  "https://drive.google.com/file/d/1dvdAdcelTiujfpaQKSFq-J7S1tTmFOZ6/view?usp=sharing"  target="_blank"><strong>View CV</strong></a>
 }
